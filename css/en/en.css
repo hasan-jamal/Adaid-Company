@@ -1,0 +1,50 @@
+.sectionOne .swiper-container .listItemsSlider{right: auto;left: 2rem;}
+.sectionOne .s1-graph1{right: -200px;left: auto;}
+@keyframes slideFadeIn {
+  to {right: 0px;opacity: 1; }
+}
+ .s1-graph2 {left: auto;right: 9rem;}
+ .sectionOne .swiper-container .fxSlide-texts .fxText h2 img{transform: rotate(180deg);}
+ .sectionOne .swiper-container .listItemsSlider .numberSlide{text-align: right;}
+.sectionTwo .lines2-S2Img{left: auto;right: 0;}
+.sectionThree .lines-S3{left: auto;right: 2.5rem; }
+.sectionFour .tab-content {left: auto;right: 0;}
+.sectionTwo .lines-S2Img{right: auto;left: 0;}
+.aboutUsPage .graphPages{ left: auto;right: 0;}
+ .aboutUsPage .box-partTwo ul{padding-left: 1rem;padding-right: 0;}
+.careersS2 .DivSlider .iconText1{right: auto;left: 0;transform: rotate(-180deg);}
+.careersS2 .DivSlider .iconText2{left: auto;right: 0;transform: rotate(-180deg);}
+ul.custom-list li::before {right: auto;left: 0;}
+ul.custom-list li{padding-left: 25px;padding-right: 0;}
+.sectionTwo .fx-sectionTwo .sectionTwo-text .iconText1{
+    transform: rotate(180deg);
+    backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
+    border: none;
+    outline: none;
+}
+.sectionTwo .fx-sectionTwo .sectionTwo-text .iconText2{
+    margin-left: auto;
+    margin-right: 0;
+    backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
+    border: none;
+    outline: none;
+    transform: rotate(180deg);
+}
+ .careersS6 .graph-pink{right: auto;left: 0;}
+.dotsSlider .imageArrow img{    transform: rotate(180deg);}
+@media (max-width:1228.8px) {
+  .sectionOne .s1-graph2{left: auto;right: 5rem;}
+}
+@media (max-width:1024px) {
+    .sectionOne .s1-graph2{left: auto;right: 4rem;}
+}
+@media (max-width:877.71px) {
+    .sectionOne .s1-graph2{left: auto;right: 3rem;}
+}
+@media (max-width:614.4px) {
+  .sectionOne .swiper-container .fxSlide-texts {padding-left: 3rem;padding-right: 0;}
+   ul.custom-list li{padding-left: 32px;padding-right: 0;}
+   .sectionOne .swiper-container .listItemsSlider {right: auto;left: 0.8rem;}
+}

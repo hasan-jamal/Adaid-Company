@@ -1,0 +1,57 @@
+.footerSection {
+    background-color: #0F3330;
+    padding: 48px 0;
+    border-top: 1px solid rgba(255, 255, 255, 0.05);
+}
+.footerSection .info-col{width: 33.3%;}
+.footerSection ul {
+    list-style: none;
+}
+.footerSection .line-height-1-6 {
+    line-height: 1.6;
+}
+.footerSection .sijil-badge {
+    background: rgba(255, 255, 255, 0.07);
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    width: fit-content;
+}
+.footerSection a:hover {
+    color: #FFB900 !important;
+    opacity: 1 !important;
+}
+.footer-bottom {
+    border-top: 1px solid rgba(255, 255, 255, 0.05);
+}
+@media (min-width:1706.67px) {
+.footerSection {padding: 5rem 0;}
+}
+@media (min-width:1920px) {
+.footerSection {padding: 6rem 0;}
+
+}
+@media (max-width: 768px) {
+    .footerSection .px-100 {
+        padding: 0 24px;
+    }
+    .footerSection .footer-col {
+        width: 100% !important;
+    }
+    .footer-bottom {
+        justify-content: center !important;
+        text-align: center;
+    }
+}
+@media (max-width: 614px) {
+    .footerSection .footer-col {
+        width: 100% !important;
+    }
+    .footerSection .footer-col h4{text-align: center;}
+    .footerSection .footer-col ul{align-items: center;}
+    .footerSection .footer-col a,
+    .footerSection .footer-col span{font-size: 14px;}
+    .fx-footerSection{flex-direction: column;gap: 1.5rem;}
+    .footer-bottom{flex-direction: column;}
+    .footer-bottom p{line-height: 170%;}
+}

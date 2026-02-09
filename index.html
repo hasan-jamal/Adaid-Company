@@ -1,0 +1,1197 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>عدائد المحدودة</title>
+    <link rel="shortcut icon" href="./images/logo.svg" type="image/x-icon" />
+    <!---Style CSS-->
+    <link rel="stylesheet" href="./css/general.css">
+    <link rel="stylesheet" href="./css/header.css">
+    <link rel="stylesheet" href="./css/landingPage.css">
+    <link rel="stylesheet" href="./css/footer.css">
+    <!-- Swiper Slider -->
+    <link rel="stylesheet" href="./css/swiperSlider/animate.css">
+    <link rel="stylesheet" href="./css/swiperSlider/swiper4.5.0.min.css">
+    <link rel="stylesheet" href="./css/swiperSlider/swiper.css">
+    <!-- AOS Animation CSS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="navbar-mobile">
+        <div class=" align-items-center  justify-content-between  flex-head">
+            <a href="#home"><img src="./images/logo.svg" class="logo-image" /></a>
+            <div id="menu-toggle">
+                <button type="button" class="hamburger bg-none" id="hamburgerBtn" onclick="toggleSidenav();">
+                    <div class="div1"></div>
+                    <div class="div2"></div>
+                    <div class="div3"></div>
+                </button>
+            </div>
+        </div>
+        <nav class="nav-mobile " id="mobileNav">
+            <div class="links ">
+                <div class="fx-links ">
+                    <a href="#home" class="font-medium active text-center">الرئيسية</a>
+                    <a href="#aboutUs" class="font-medium text-center">عن الشركة</a>
+                    <a href="#services" class="font-medium text-center">خدماتنا</a>
+                    <a href="#strategy" class="font-medium text-center">الرؤية والرسالة</a>
+                    <a href="#projects" class="font-medium text-center">المشاريع</a>
+                    <a href="#contact" class="font-medium text-center">تواصل معنا</a>
+                    <a href="./enPages/index.html" class="font-medium text-center">English</a>
+
+                </div>
+            </div>
+        </nav>
+    </div>
+    <header>
+        <div class="d-flex align-items-center fxHeader">
+            <div class="divLogo cPointer" onclick="window.location.href='index.html'"><img src="./images/logo.svg"
+                    alt="logo image"></div>
+            <div class="linksHeader d-flex align-items-center ">
+                <a href="#home" class="fontSize16 style-font colorWhite active">الرئيسية</a>
+                <a href="#aboutUs" class="fontSize16 style-font colorWhite">عن الشركة</a>
+                <a href="#services" class="fontSize16 style-font colorWhite">خدماتنا</a>
+                <a href="#strategy" class="fontSize16 style-font colorWhite">الرؤية والرسالة</a>
+                <a href="#projects" class="fontSize16 style-font colorWhite">المشاريع</a>
+                <a href="#contact" class="fontSize16 style-font colorWhite"></a>
+            </div>
+            <div class="lastPart d-flex align-items-center">
+                <a type="button" onclick="window.location.href='./enPages/index.html'"
+                    class="langBtn d-flex align-items-center gap-2">
+                    <img src="./images/langIcon.svg" alt="lang Icon">
+                    <span class="fontSize14 font-bold colorWhite ">EN</span>
+                </a>
+                <button type="button" onclick="window.location.href='#contact'"
+                    class="fontSize16 colorWhite font-bold contactUsBtn d-flex align-items-center justify-content-center h45px">تواصل
+                    معنا</button>
+            </div>
+        </div>
+    </header>
+    <main>
+
+        <section class="sectionOne" id="home">
+            <div class="sectionOne-container h-100">
+                <div class="sectionOneBackground h-100 d-flex align-items-center  flex-column">
+                    <img src="./images/logoSectionOne.svg" alt="logo" class="logoSectionOne" data-aos="fade-up"
+                        data-aos-anchor-placement="center-bottom" data-aos-duration="1000">
+                    <div class="sectionOne-text d-flex flex-column align-items-center justify-content-center">
+                        <h1 class="text-center colorWhite fontSize32 font-bold">بناء مستقبل المملكة العربية السعودية
+                        </h1>
+                        <div class="d-flex align-items-center justify-content-center fxSubHeader">
+                            <div class="divArrowFirst"></div>
+                            <h3 class="colorWhite fontSize15 style-font text-center">المساهمة في رؤية السعودية 2030</h3>
+                            <div class="divArrowTwo"></div>
+                        </div>
+                    </div>
+                    <a href="#about"
+                        class="seeMoreBtn d-flex align-items-center justify-content-center flex-column  gap-2">
+                        <span class="text-center fontSize14 style-font">مرر لأسفل لاكتشاف المزيد</span>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="14" height="8" viewBox="0 0 14 8" fill="none">
+                            <path d="M1 1L7 7L13 1" stroke="white" stroke-opacity="0.6" stroke-width="2"
+                                stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                    </a>
+                </div>
+        </section>
+        <section class="about-container d-flex align-items-center justify-content-center px-100" id="aboutUs">
+            <div class="main-wrapper">
+                <div class="d-flex align-items-center justify-content-between responsive-flex gap-5">
+                    <div class="image-side d-flex justify-content-center w-100">
+                        <div class="img-holder">
+                            <img src="./images/imgSection2.png" alt="Construction site" class="main-image"
+                                data-aos="zoom-in" data-aos-duration="500">
+                            <div class="exp-badge">
+                                <h2 class="font-bold drarkGreen2 fontSize36 mb-0">+10</h2>
+                                <p class="style-font drarkGreen3 fontSize16">سنوات من الخبرة</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="text-side w-100">
+                        <span class="font-bold drarkGreen fontSize16 d-block">من نحن</span>
+                        <h1 class="font-ExtraBold colorBlack4 fontSize45 mt-2" data-aos="fade-up"
+                            data-aos-anchor-placement="center-bottom">شركة عدائد المحدودة</h1>
+
+                        <p class="style-font colorBlack fontSize18 mt-3">
+                            شركة سعودية متخصصة في تنفيذ المشاريع للقطاعين الحكومي والخاص، تأسست بهدف المساهمة في بناء
+                            الوطن،
+                            معتمدة على سنوات من الخبرة المثبتة التي تتميز بالالتزام والإنجاز والتميز التشغيلي.
+                        </p>
+                        <p class="style-font colorBlack fontSize18 mt-3">
+                            نسعى للريادة والتميز في تقديم خدمات مقاولات متكاملة من خلال الأصالة والخبرة، مع التركيز على
+                            تحقيق
+                            القيمة المستدامة للعملاء والمستثمرين والمساهمة في نمو السوق السعودي.
+                        </p>
+
+                        <div class="features-list mt-4">
+                            <div class="feature-item d-flex align-items-center">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                    fill="none">
+                                    <path
+                                        d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22Z"
+                                        stroke="#0F3330" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round" />
+                                    <path d="M9 12L11 14L15 10" stroke="#0F3330" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round" />
+                                </svg>
+                                <span class="font-medium fontSize16 colorBlack3">سجل حافل من الإنجازات والتميز</span>
+                            </div>
+                            <div class="feature-item d-flex align-items-center">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                    fill="none">
+                                    <path
+                                        d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22Z"
+                                        stroke="#0F3330" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round" />
+                                    <path d="M9 12L11 14L15 10" stroke="#0F3330" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round" />
+                                </svg>
+                                <span class="font-medium fontSize16 colorBlack3">التزام كامل بأعلى معايير
+                                    الجودة</span>
+                            </div>
+                            <div class="feature-item d-flex align-items-center">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                    fill="none">
+                                    <path
+                                        d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22Z"
+                                        stroke="#0F3330" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round" />
+                                    <path d="M9 12L11 14L15 10" stroke="#0F3330" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round" />
+                                </svg>
+                                <span class="font-medium fontSize16 colorBlack3">فريق ذو خبرة واسعة في القطاع</span>
+                            </div>
+                            <div class="feature-item d-flex align-items-center">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                    fill="none">
+                                    <path
+                                        d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22Z"
+                                        stroke="#0F3330" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round" />
+                                    <path d="M9 12L11 14L15 10" stroke="#0F3330" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round" />
+                                </svg>
+                                <span class="font-medium fontSize16 colorBlack3">شريك موثوق للقطاعين الحكومي
+                                    والخاص</span>
+                            </div>
+                        </div>
+
+                        <div class="cr-number-box mt-4">
+                            <span class="font-bold drarkGreen2 fontSize16">رقم السجل الموحد:</span>
+                            <span class="style-font colorBlack2 fontSize16" dir="ltr">7053252214</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="sectionThree" id="services">
+            <div class="sectionThree-container h-100 px-100">
+                <div class="header-content d-flex flex-column align-items-center text-center">
+                    <span class="font-bold drarkGreen2 fontSize16">خدماتنا</span>
+                    <h2 class="font-bold colorBlack4 fontSize45 mb-0" data-aos="fade-up"
+                        data-aos-anchor-placement="center-bottom">نطاق أعمالنا</h2>
+
+                    <div class="title-separator">
+                        <div class="separator-line"></div>
+                        <span class="dot"></span>
+                        <div class="separator-line2"></div>
+                    </div>
+
+                    <p class="style-font drarkGreen3 fontSize18 px-150 ">
+                        نقدم مجموعة شاملة من الخدمات الإنشائية المتكاملة لتلبية احتياجات مشاريعكم بأعلى مستويات الجودة
+                        والاحترافية.
+                    </p>
+                </div>
+                <div class="services-grid">
+                    <div class="service-card d-flex flex-column">
+                        <div class="icon-wrapper bg-blue">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32"
+                                fill="none">
+                                <path
+                                    d="M17.1067 2.90674C16.7592 2.74827 16.3818 2.66626 16 2.66626C15.6181 2.66626 15.2407 2.74827 14.8933 2.90674L3.46666 8.10674C3.23006 8.21106 3.0289 8.38193 2.88768 8.59854C2.74645 8.81515 2.67126 9.06816 2.67126 9.32674C2.67126 9.58532 2.74645 9.83832 2.88768 10.0549C3.0289 10.2715 3.23006 10.4424 3.46666 10.5467L14.9067 15.7601C15.2541 15.9185 15.6315 16.0005 16.0133 16.0005C16.3952 16.0005 16.7726 15.9185 17.12 15.7601L28.56 10.5601C28.7966 10.4557 28.9978 10.2849 29.139 10.0683C29.2802 9.85165 29.3554 9.59865 29.3554 9.34007C29.3554 9.08149 29.2802 8.82849 29.139 8.61188C28.9978 8.39527 28.7966 8.22439 28.56 8.12007L17.1067 2.90674Z"
+                                    stroke="white" stroke-width="2.66667" stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                                <path
+                                    d="M2.66663 16C2.666 16.255 2.73852 16.5049 2.87559 16.7199C3.01266 16.935 3.20852 17.1062 3.43996 17.2133L14.9066 22.4267C15.2522 22.5832 15.6272 22.6641 16.0066 22.6641C16.386 22.6641 16.761 22.5832 17.1066 22.4267L28.5466 17.2267C28.7826 17.1206 28.9827 16.9481 29.1224 16.7303C29.2621 16.5125 29.3353 16.2587 29.3333 16"
+                                    stroke="white" stroke-width="2.66667" stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                                <path
+                                    d="M2.66663 22.6667C2.666 22.9218 2.73852 23.1716 2.87559 23.3867C3.01266 23.6017 3.20852 23.773 3.43996 23.8801L14.9066 29.0934C15.2522 29.2499 15.6272 29.3309 16.0066 29.3309C16.386 29.3309 16.761 29.2499 17.1066 29.0934L28.5466 23.8934C28.7826 23.7873 28.9827 23.6149 29.1224 23.3971C29.2621 23.1792 29.3353 22.9255 29.3333 22.6667"
+                                    stroke="white" stroke-width="2.66667" stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                            </svg>
+                        </div>
+                        <h3 class="font-bold colorBlack4 fontSize20">البنية التحتية والمرافق العامة</h3>
+                        <p class="style-font drarkGreen3 fontSize15">تنفيذ مشاريع البنية التحتية الحيوية والمرافق
+                            العامة
+                            بأعلى معايير الجودة والكفاءة.</p>
+                    </div>
+                    <div class="service-card d-flex flex-column">
+                        <div class="icon-wrapper bg-green">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32"
+                                fill="none">
+                                <path
+                                    d="M13.3333 13.3333V13.5999C14.2077 13.9362 14.9364 14.5687 15.3922 15.3872C15.848 16.2057 16.0021 17.1583 15.8275 18.0787C15.6529 18.9992 15.1608 19.8291 14.437 20.4239C13.7131 21.0187 12.8035 21.3405 11.8666 21.3333H6.66663C5.74099 21.3102 4.852 20.9668 4.15131 20.3615C3.45061 19.7562 2.9816 18.9266 2.82428 18.0141C2.66696 17.1017 2.83107 16.1629 3.28862 15.3579C3.74616 14.5529 4.46881 13.9316 5.3333 13.5999V13.3333C5.3333 12.2724 5.75473 11.255 6.50487 10.5048C7.25502 9.75468 8.27243 9.33325 9.3333 9.33325C10.3942 9.33325 11.4116 9.75468 12.1617 10.5048C12.9119 11.255 13.3333 12.2724 13.3333 13.3333Z"
+                                    stroke="white" stroke-width="2.66667" stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                                <path d="M9.33331 21.3333V29.3333" stroke="white" stroke-width="2.66667"
+                                    stroke-linecap="round" stroke-linejoin="round" />
+                                <path d="M17.3333 25.3333V29.3333" stroke="white" stroke-width="2.66667"
+                                    stroke-linecap="round" stroke-linejoin="round" />
+                                <path
+                                    d="M15.9999 25.3333H27.0666C27.3276 25.3297 27.5817 25.2495 27.7976 25.1027C28.0134 24.956 28.1814 24.7491 28.2808 24.5078C28.3802 24.2665 28.4065 24.0013 28.3566 23.7451C28.3067 23.4889 28.1827 23.253 27.9999 23.0667L23.9999 18.6667H24.3999C24.6609 18.663 24.9151 18.5828 25.1309 18.4361C25.3467 18.2893 25.5147 18.0825 25.6141 17.8411C25.7135 17.5998 25.7399 17.3346 25.6899 17.0784C25.64 16.8223 25.516 16.5864 25.3333 16.4L21.3333 12H21.5999C21.8723 12.0246 22.1456 11.9648 22.3828 11.8288C22.62 11.6928 22.8097 11.4872 22.9262 11.2398C23.0426 10.9924 23.0801 10.7151 23.0337 10.4457C22.9873 10.1762 22.8591 9.92752 22.6666 9.73333L17.3333 4L15.4666 6"
+                                    stroke="white" stroke-width="2.66667" stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                            </svg>
+                        </div>
+                        <h3 class="font-bold colorBlack4 fontSize20">المشاريع البيئية والاستدامة</h3>
+                        <p class="style-font drarkGreen3 fontSize15">تطوير مشاريع صديقة للبيئة تساهم في تحقيق
+                            الاستدامة
+                            والحفاظ على البيئة.</p>
+                    </div>
+                    <div class="service-card d-flex flex-column">
+                        <div class="icon-wrapper bg-purple">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32"
+                                fill="none">
+                                <path
+                                    d="M8 29.3334V5.33341C8 4.62617 8.28095 3.94789 8.78105 3.4478C9.28115 2.9477 9.95942 2.66675 10.6667 2.66675H21.3333C22.0406 2.66675 22.7189 2.9477 23.219 3.4478C23.719 3.94789 24 4.62617 24 5.33341V29.3334H8Z"
+                                    stroke="white" stroke-width="2.66667" stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                                <path
+                                    d="M7.99999 16H5.33332C4.62608 16 3.9478 16.281 3.4477 16.781C2.94761 17.2811 2.66666 17.9594 2.66666 18.6667V26.6667C2.66666 27.3739 2.94761 28.0522 3.4477 28.5523C3.9478 29.0524 4.62608 29.3333 5.33332 29.3333H7.99999"
+                                    stroke="white" stroke-width="2.66667" stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                                <path
+                                    d="M24 12H26.6667C27.3739 12 28.0522 12.281 28.5523 12.781C29.0524 13.2811 29.3333 13.9594 29.3333 14.6667V26.6667C29.3333 27.3739 29.0524 28.0522 28.5523 28.5523C28.0522 29.0524 27.3739 29.3333 26.6667 29.3333H24"
+                                    stroke="white" stroke-width="2.66667" stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                                <path d="M13.3333 8H18.6667" stroke="white" stroke-width="2.66667"
+                                    stroke-linecap="round" stroke-linejoin="round" />
+                                <path d="M13.3333 13.3333H18.6667" stroke="white" stroke-width="2.66667"
+                                    stroke-linecap="round" stroke-linejoin="round" />
+                                <path d="M13.3333 18.6667H18.6667" stroke="white" stroke-width="2.66667"
+                                    stroke-linecap="round" stroke-linejoin="round" />
+                                <path d="M13.3333 24H18.6667" stroke="white" stroke-width="2.66667"
+                                    stroke-linecap="round" stroke-linejoin="round" />
+                            </svg>
+                        </div>
+                        <h3 class="font-bold colorBlack4 fontSize20">المباني السكنية والتجارية</h3>
+                        <p class="style-font drarkGreen3 fontSize15">بناء وتطوير المباني السكنية والتجارية
+                            والصناعية
+                            بمواصفات
+                            عالمية.</p>
+                    </div>
+                    <div class="service-card d-flex flex-column">
+                        <div class="icon-wrapper bg-orange">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32"
+                                fill="none">
+                                <path
+                                    d="M2.66663 26.6667C2.66663 27.374 2.94758 28.0523 3.44767 28.5524C3.94777 29.0525 4.62605 29.3334 5.33329 29.3334H26.6666C27.3739 29.3334 28.0521 29.0525 28.5522 28.5524C29.0523 28.0523 29.3333 27.374 29.3333 26.6667V10.6667L20 17.3334V10.6667L10.6666 17.3334V5.33341C10.6666 4.62617 10.3857 3.94789 9.88558 3.4478C9.38548 2.9477 8.7072 2.66675 7.99996 2.66675H5.33329C4.62605 2.66675 3.94777 2.9477 3.44767 3.4478C2.94758 3.94789 2.66663 4.62617 2.66663 5.33341V26.6667Z"
+                                    stroke="white" stroke-width="2.66667" stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                                <path d="M22.6666 24H24" stroke="white" stroke-width="2.66667" stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                                <path d="M16 24H17.3333" stroke="white" stroke-width="2.66667" stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                                <path d="M9.33337 24H10.6667" stroke="white" stroke-width="2.66667"
+                                    stroke-linecap="round" stroke-linejoin="round" />
+                            </svg>
+                        </div>
+                        <h3 class="font-bold colorBlack4 fontSize20">المنشآت اللوجستية والداعمة</h3>
+                        <p class="style-font drarkGreen3 fontSize15">إنشاء المرافق اللوجستية والبنية التحتية
+                            الداعمة
+                            للمشاريع
+                            الكبرى.</p>
+                    </div>
+                    <div class="service-card d-flex flex-column">
+                        <div class="icon-wrapper bg-red">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32"
+                                fill="none">
+                                <path
+                                    d="M20 28V17.3333C20 16.9797 19.8595 16.6406 19.6095 16.3905C19.3594 16.1405 19.0203 16 18.6667 16H13.3333C12.9797 16 12.6406 16.1405 12.3905 16.3905C12.1405 16.6406 12 16.9797 12 17.3333V28"
+                                    stroke="white" stroke-width="2.66667" stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                                <path
+                                    d="M4 13.3332C3.99991 12.9453 4.08445 12.562 4.24772 12.2102C4.41099 11.8583 4.64906 11.5463 4.94533 11.2959L14.2787 3.29721C14.76 2.89042 15.3698 2.66724 16 2.66724C16.6302 2.66724 17.24 2.89042 17.7213 3.29721L27.0547 11.2959C27.3509 11.5463 27.589 11.8583 27.7523 12.2102C27.9156 12.562 28.0001 12.9453 28 13.3332V25.3332C28 26.0405 27.719 26.7187 27.219 27.2188C26.7189 27.7189 26.0406 27.9999 25.3333 27.9999H6.66667C5.95942 27.9999 5.28115 27.7189 4.78105 27.2188C4.28095 26.7187 4 26.0405 4 25.3332V13.3332Z"
+                                    stroke="white" stroke-width="2.66667" stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                            </svg>
+                        </div>
+                        <h3 class="font-bold colorBlack4 fontSize20">التطوير العقاري</h3>
+                        <p class="style-font drarkGreen3 fontSize15">الاستثمار في تطوير العقارات السكنية والتجارية
+                            بجودة
+                            استثنائية.</p>
+                    </div>
+                    <div class="service-card d-flex flex-column">
+                        <div class="icon-wrapper bg-cyan">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32"
+                                fill="none">
+                                <path d="M29.3333 9.33325L18 20.6666L11.3333 13.9999L2.66666 22.6666" stroke="white"
+                                    stroke-width="2.66667" stroke-linecap="round" stroke-linejoin="round" />
+                                <path d="M21.3333 9.33325H29.3333V17.3333" stroke="white" stroke-width="2.66667"
+                                    stroke-linecap="round" stroke-linejoin="round" />
+                            </svg>
+                        </div>
+                        <h3 class="font-bold colorBlack4 fontSize20">إدارة المشاريع</h3>
+                        <p class="style-font drarkGreen3 fontSize15">إدارة المشاريع الإنشائية من البداية للنهاية
+                            بكفاءة
+                            واحترافية عالية.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="sectionFour mx-auto">
+            <div
+                class="px-100 d-flex flex-column align-items-center justify-content-center text-center h-100 content-wrapper">
+                <h1 class="font-bold fontSize36 colorWhite">نساهم في تحقيق رؤية 2030</h1>
+                <p class="style-font fontSize18 colorWhite opacity8 mb-0">نحن فخورون بمساهمتنا الفعالة في تطوير البنية
+                    التحتية السعودية ودعم <br>
+                    برامج التنمية الوطنية</p>
+            </div>
+        </section>
+        <section class="sectionFive" id="strategy">
+            <div class="sectionFive-container h-100 px-100">
+                <div class="header-content d-flex flex-column align-items-center text-center">
+                    <span class="font-bold drarkGreen2 fontSize16">رؤيتنا ورسالتنا</span>
+                    <h2 class="font-bold colorBlack4 fontSize45 mb-0" data-aos="fade-up"
+                        data-aos-anchor-placement="center-bottom">التوجه الاستراتيجي</h2>
+
+                    <div class="title-separator">
+                        <div class="separator-line"></div>
+                        <span class="dot"></span>
+                        <div class="separator-line2"></div>
+                    </div>
+                </div>
+
+                <div class="strategy-grid mt-5">
+                    <div class="strategy-card vision-card d-flex flex-column text-start">
+                        <div class="card-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32"
+                                fill="none">
+                                <path
+                                    d="M2.66669 10.6667C2.66669 10.6667 8.63622 4 16 4C23.3638 4 29.3334 10.6667 29.3334 10.6667"
+                                    stroke="white" stroke-width="2" stroke-linecap="round" />
+                                <path
+                                    d="M28.7254 17.3933C29.1307 17.9617 29.3334 18.2459 29.3334 18.6666C29.3334 19.0873 29.1307 19.3715 28.7254 19.9399C26.9039 22.4941 22.2523 27.9999 16 27.9999C9.74773 27.9999 5.09615 22.4941 3.27474 19.9399C2.86937 19.3715 2.66669 19.0873 2.66669 18.6666C2.66669 18.2459 2.86937 17.9617 3.27474 17.3933C5.09615 14.8391 9.74773 9.33325 16 9.33325C22.2523 9.33325 26.9039 14.8391 28.7254 17.3933Z"
+                                    stroke="white" stroke-width="2" />
+                                <path
+                                    d="M20 18.6667C20 16.4575 18.2092 14.6667 16 14.6667C13.7908 14.6667 12 16.4575 12 18.6667C12 20.8759 13.7908 22.6667 16 22.6667C18.2092 22.6667 20 20.8759 20 18.6667Z"
+                                    stroke="white" stroke-width="2" />
+                            </svg>
+                        </div>
+                        <div class="card-body">
+                            <h3 class="font-bold fontSize32 mb-3">الرؤية</h3>
+                            <p class="style-font fontSize16">
+                                تسليم مشاريع إنشائية عالية الجودة تحقق قيمة مستدامة، وتلبي توقعات العملاء، وتضمن
+                                الشفافية
+                                والمصداقية، وتحقق عوائد قوية للمستثمرين، وتساهم في نمو السوق السعودي.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="strategy-card mission-card d-flex flex-column text-start">
+                        <div class="card-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32"
+                                fill="none">
+                                <path
+                                    d="M2.66667 8L11.884 13.2226C15.2821 15.148 16.7179 15.148 20.116 13.2226L29.3333 8"
+                                    stroke="white" stroke-width="2" stroke-linejoin="round" />
+                                <path
+                                    d="M2.6877 17.9676C2.77486 22.055 2.81845 24.0986 4.32662 25.6126C5.83478 27.1265 7.93378 27.1792 12.1318 27.2846C14.7191 27.3497 17.2809 27.3497 19.8683 27.2846C24.0663 27.1792 26.1652 27.1265 27.6735 25.6126C29.1816 24.0986 29.2252 22.055 29.3123 17.9676C29.3404 16.6533 29.3404 15.3469 29.3123 14.0326C29.2252 9.94523 29.1816 7.90154 27.6735 6.38763C26.1652 4.87372 24.0663 4.82099 19.8683 4.71551C17.2809 4.6505 14.7191 4.6505 12.1318 4.7155C7.93378 4.82096 5.83478 4.8737 4.32661 6.38762C2.81843 7.90152 2.77486 9.94522 2.68769 14.0326C2.65966 15.3469 2.65967 16.6533 2.6877 17.9676Z"
+                                    stroke="white" stroke-width="2" stroke-linejoin="round" />
+                            </svg>
+                        </div>
+                        <div class="card-body">
+                            <h3 class="font-bold fontSize32 ">الرسالة</h3>
+                            <p class="style-font fontSize16">
+                                نسعى لنكون الخيار المفضل في قطاع المقاولات من خلال تقديم خدمات متكاملة عالية الجودة، مع
+                                التحسين
+                                المستمر للكفاءة والابتكار، والالتزام بأعلى المعايير المحلية والدولية، والمساهمة الفعالة
+                                في دعم
+                                رؤية المملكة 2030.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="sectionSix">
+            <div class="sectionSix-container px-110">
+                <div class="header-content">
+                    <h2 class="colorBlack4 fontSize35 text-center font-bold" data-aos="fade-up"
+                        data-aos-anchor-placement="center-bottom">أهدافنا الاستراتيجية</h2>
+                </div>
+                <div class="strategy-grid">
+                    <div class="strategy-card d-flex flex-column">
+                        <div class="card-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 28 28"
+                                fill="none">
+                                <path
+                                    d="M7.00004 10.5001H5.25004C4.47649 10.5001 3.73463 10.1928 3.18765 9.64581C2.64066 9.09883 2.33337 8.35696 2.33337 7.58341C2.33337 6.80987 2.64066 6.068 3.18765 5.52102C3.73463 4.97404 4.47649 4.66675 5.25004 4.66675H7.00004"
+                                    stroke="#fff" stroke-width="2.33333" stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                                <path
+                                    d="M21 10.5001H22.75C23.5235 10.5001 24.2654 10.1928 24.8124 9.64581C25.3594 9.09883 25.6667 8.35696 25.6667 7.58341C25.6667 6.80987 25.3594 6.068 24.8124 5.52102C24.2654 4.97404 23.5235 4.66675 22.75 4.66675H21"
+                                    stroke="#fff" stroke-width="2.33333" stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                                <path d="M4.66663 25.6667H23.3333" stroke="#fff" stroke-width="2.33333"
+                                    stroke-linecap="round" stroke-linejoin="round" />
+                                <path
+                                    d="M11.6666 17.1033V19.8333C11.6666 20.4749 11.1183 20.9766 10.535 21.2449C9.15829 21.8749 8.16663 23.6133 8.16663 25.6666"
+                                    stroke="#fff" stroke-width="2.33333" stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                                <path
+                                    d="M16.3334 17.1033V19.8333C16.3334 20.4749 16.8817 20.9766 17.465 21.2449C18.8417 21.8749 19.8334 23.6133 19.8334 25.6666"
+                                    stroke="#fff" stroke-width="2.33333" stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                                <path
+                                    d="M21 2.33325H7V10.4999C7 12.3564 7.7375 14.1369 9.05025 15.4497C10.363 16.7624 12.1435 17.4999 14 17.4999C15.8565 17.4999 17.637 16.7624 18.9497 15.4497C20.2625 14.1369 21 12.3564 21 10.4999V2.33325Z"
+                                    stroke="#fff" stroke-width="2.33333" stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                            </svg>
+                        </div>
+                        <div class="card-body ">
+                            <h3 class="colorBlack4 fontSize18 font-bold">رؤية 2030</h3>
+                            <p class="drarkGreen3 fontSize14 style-font mb-0">المساهمة الفاعلة في دعم رؤية المملكة 2030
+                            </p>
+                        </div>
+                    </div>
+                    <div class="strategy-card d-flex flex-column">
+                        <div class="card-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 28 28"
+                                fill="none">
+                                <path
+                                    d="M17.5 16.3333C17.7333 15.1666 18.3167 14.3499 19.25 13.4166C20.4167 12.3666 21 10.8499 21 9.33325C21 7.47674 20.2625 5.69626 18.9497 4.3835C17.637 3.07075 15.8565 2.33325 14 2.33325C12.1435 2.33325 10.363 3.07075 9.05025 4.3835C7.7375 5.69626 7 7.47674 7 9.33325C7 10.4999 7.23333 11.8999 8.75 13.4166C9.56667 14.2333 10.2667 15.1666 10.5 16.3333"
+                                    stroke="#0F3330" stroke-width="2.33333" stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                                <path d="M10.5 21H17.5" stroke="#0F3330" stroke-width="2.33333" stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                                <path d="M11.6667 25.6667H16.3334" stroke="#0F3330" stroke-width="2.33333"
+                                    stroke-linecap="round" stroke-linejoin="round" />
+                            </svg>
+                        </div>
+                        <div class="card-body">
+                            <h3 class="colorBlack4 fontSize18 font-bold">المعايير العالمية</h3>
+                            <p class="drarkGreen3 fontSize14 style-font mb-0">الالتزام بأعلى المعايير المحلية والدولية
+                            </p>
+                        </div>
+                    </div>
+                    <div class="strategy-card d-flex flex-column align-items-start">
+                        <div class="card-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 28 28"
+                                fill="none">
+                                <path
+                                    d="M23.3334 15.1666C23.3334 21 19.25 23.9166 14.3967 25.6083C14.1425 25.6944 13.8665 25.6903 13.615 25.5966C8.75002 23.9166 4.66669 21 4.66669 15.1666V6.99995C4.66669 6.69054 4.7896 6.39379 5.0084 6.175C5.22719 5.9562 5.52393 5.83329 5.83335 5.83329C8.16669 5.83329 11.0834 4.43329 13.1134 2.65995C13.3605 2.44879 13.6749 2.33276 14 2.33276C14.3251 2.33276 14.6395 2.44879 14.8867 2.65995C16.9284 4.44495 19.8334 5.83329 22.1667 5.83329C22.4761 5.83329 22.7729 5.9562 22.9916 6.175C23.2104 6.39379 23.3334 6.69054 23.3334 6.99995V15.1666Z"
+                                    stroke="#0F3330" stroke-width="2.33333" stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                            </svg>
+                        </div>
+                        <div class="card-body">
+                            <h3 class="colorBlack4 fontSize18 font-bold">التطوير المستمر</h3>
+                            <p class="drarkGreen3 fontSize14 style-font mb-0">التحسين المستمر للجودة والكفاءة والابتكار
+                            </p>
+                        </div>
+                    </div>
+                    <div class="strategy-card d-flex flex-column">
+                        <div class="card-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 28 28"
+                                fill="none">
+                                <path
+                                    d="M18.6667 24.5V22.1667C18.6667 20.929 18.175 19.742 17.2998 18.8668C16.4247 17.9917 15.2377 17.5 14 17.5H7.00001C5.76233 17.5 4.57535 17.9917 3.70018 18.8668C2.82501 19.742 2.33334 20.929 2.33334 22.1667V24.5"
+                                    stroke="#0F3330" stroke-width="2.33333" stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                                <path
+                                    d="M10.5 12.8333C13.0773 12.8333 15.1667 10.744 15.1667 8.16667C15.1667 5.58934 13.0773 3.5 10.5 3.5C7.92268 3.5 5.83334 5.58934 5.83334 8.16667C5.83334 10.744 7.92268 12.8333 10.5 12.8333Z"
+                                    stroke="#0F3330" stroke-width="2.33333" stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                                <path
+                                    d="M25.6667 24.4999V22.1666C25.6659 21.1326 25.3217 20.1282 24.6882 19.311C24.0548 18.4938 23.1678 17.9101 22.1667 17.6516"
+                                    stroke="#0F3330" stroke-width="2.33333" stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                                <path
+                                    d="M18.6667 3.65161C19.6705 3.90863 20.5602 4.49243 21.1956 5.31097C21.8309 6.12952 22.1758 7.13625 22.1758 8.17244C22.1758 9.20864 21.8309 10.2154 21.1956 11.0339C20.5602 11.8525 19.6705 12.4363 18.6667 12.6933"
+                                    stroke="#0F3330" stroke-width="2.33333" stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                            </svg>
+                        </div>
+                        <div class="card-body">
+                            <h3 class="colorBlack4 fontSize18 font-bold">الخيار الأول</h3>
+                            <p class="drarkGreen3 fontSize14 style-font mb-0">أن نكون الخيار الأول في قطاع المقاولات</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="sectionSeven">
+            <div class="sectionSeven-container px-110">
+                <div class="header-content">
+                    <span class="font-bold drarkGreen2 fontSize16 text-center">قيمنا الجوهرية</span>
+                    <div class="title-separator">
+                        <div class="separator-line"></div>
+                        <div class="dot"></div>
+                        <div class="separator-line2"></div>
+                    </div>
+
+                    <h2 class="colorBlack4 fontSize45 text-center font-bold" data-aos="fade-up"
+                        data-aos-anchor-placement="center-bottom">المبادئ التي نلتزم بها</h2>
+                    <p class="fontSize18 style-font drarkGreen3">قيمنا الأساسية هي البوصلة التي توجه عملنا وقراراتنا
+                        وتفاعلاتنا مع
+                        جميع شركائنا</p>
+                </div>
+
+                <div class="values-grid">
+
+
+                    <div class="value-card ">
+                        <div class="card-icon blue-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32"
+                                fill="none">
+                                <path
+                                    d="M20.636 17.187L22.656 28.555C22.6786 28.6889 22.6598 28.8264 22.6021 28.9493C22.5445 29.0722 22.4506 29.1746 22.3332 29.2427C22.2158 29.3109 22.0804 29.3415 21.945 29.3306C21.8097 29.3197 21.681 29.2677 21.576 29.1817L16.8026 25.599C16.5722 25.4269 16.2923 25.3338 16.0046 25.3338C15.717 25.3338 15.4371 25.4269 15.2066 25.599L10.4253 29.1803C10.3204 29.2663 10.1918 29.3181 10.0566 29.3291C9.92148 29.34 9.7862 29.3094 9.66886 29.2415C9.55151 29.1736 9.45767 29.0714 9.39987 28.9488C9.34206 28.8261 9.32302 28.6888 9.34531 28.555L11.364 17.187"
+                                    stroke="white" stroke-width="2.66667" stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                                <path
+                                    d="M16 18.6665C20.4183 18.6665 24 15.0848 24 10.6665C24 6.24823 20.4183 2.6665 16 2.6665C11.5817 2.6665 8 6.24823 8 10.6665C8 15.0848 11.5817 18.6665 16 18.6665Z"
+                                    stroke="white" stroke-width="2.66667" stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                            </svg>
+                        </div>
+                        <div class="card-body">
+                            <h3 class="colorBlack4 fontSize24 font-bold">الجودة والدقة</h3>
+                            <p class="mb-0 drarkGreen3 style-font fontSize14">الالتزام بأعلى معايير الجودة في كل مشروع
+                                نقوم بتنفيذه، مع التركيز على الدقة
+                                في كافة
+                                التفاصيل</p>
+                        </div>
+                    </div>
+
+                    <div class="value-card">
+                        <div class="card-icon red-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32"
+                                fill="none">
+                                <path
+                                    d="M25.3334 18.6667C27.32 16.72 29.3334 14.3867 29.3334 11.3333C29.3334 9.38841 28.5607 7.52315 27.1855 6.14788C25.8102 4.77262 23.9449 4 22 4C19.6534 4 18 4.66667 16 6.66667C14 4.66667 12.3467 4 10 4C8.0551 4 6.18984 4.77262 4.81457 6.14788C3.4393 7.52315 2.66669 9.38841 2.66669 11.3333C2.66669 14.4 4.66669 16.7333 6.66669 18.6667L16 28L25.3334 18.6667Z"
+                                    stroke="white" stroke-width="2.66667" stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                            </svg>
+                        </div>
+                        <div class="card-body">
+                            <h3 class="colorBlack4 fontSize24 font-bold">النزاهة</h3>
+                            <p class="mb-0 drarkGreen3 style-font fontSize14">العمل بشفافية ومصداقية تامة مع جميع
+                                شركائنا وعملائنا، والالتزام بأخلاقيات العمل</p>
+                        </div>
+                    </div>
+
+                    <div class="value-card">
+                        <div class="card-icon purple-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32"
+                                fill="none">
+                                <path
+                                    d="M2.74934 16.464C2.63822 16.1646 2.63822 15.8353 2.74934 15.536C3.83161 12.9118 5.66869 10.668 8.0277 9.08919C10.3867 7.51034 13.1614 6.66748 16 6.66748C18.8386 6.66748 21.6133 7.51034 23.9723 9.08919C26.3313 10.668 28.1684 12.9118 29.2507 15.536C29.3618 15.8353 29.3618 16.1646 29.2507 16.464C28.1684 19.0882 26.3313 21.3319 23.9723 22.9108C21.6133 24.4897 18.8386 25.3325 16 25.3325C13.1614 25.3325 10.3867 24.4897 8.0277 22.9108C5.66869 21.3319 3.83161 19.0882 2.74934 16.464Z"
+                                    stroke="white" stroke-width="2.66667" stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                                <path
+                                    d="M16 20C18.2091 20 20 18.2091 20 16C20 13.7909 18.2091 12 16 12C13.7909 12 12 13.7909 12 16C12 18.2091 13.7909 20 16 20Z"
+                                    stroke="white" stroke-width="2.66667" stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                            </svg>
+                        </div>
+                        <div class="card-body">
+                            <h3 class="colorBlack4 fontSize24 font-bold">الشفافية</h3>
+                            <p class="mb-0 drarkGreen3 style-font fontSize14">الوضوح الكامل في التعاملات والعمليات،
+                                وتقديم تقارير دقيقة ومفصلة لجميع المعنيين</p>
+                        </div>
+                    </div>
+
+                    <div class="value-card">
+                        <div class="card-icon green-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32"
+                                fill="none">
+                                <path
+                                    d="M21.3334 28V25.3333C21.3334 23.9188 20.7714 22.5623 19.7713 21.5621C18.7711 20.5619 17.4145 20 16 20H8.00002C6.58553 20 5.22898 20.5619 4.22878 21.5621C3.22859 22.5623 2.66669 23.9188 2.66669 25.3333V28"
+                                    stroke="white" stroke-width="2.66667" stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                                <path
+                                    d="M12 14.6667C14.9455 14.6667 17.3334 12.2789 17.3334 9.33333C17.3334 6.38781 14.9455 4 12 4C9.0545 4 6.66669 6.38781 6.66669 9.33333C6.66669 12.2789 9.0545 14.6667 12 14.6667Z"
+                                    stroke="white" stroke-width="2.66667" stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                                <path
+                                    d="M29.3333 28V25.3333C29.3324 24.1516 28.9391 23.0037 28.2151 22.0698C27.4911 21.1358 26.4775 20.4688 25.3333 20.1733"
+                                    stroke="white" stroke-width="2.66667" stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                                <path
+                                    d="M21.3333 4.17334C22.4805 4.46707 23.4974 5.13427 24.2235 6.06975C24.9496 7.00523 25.3438 8.15578 25.3438 9.34001C25.3438 10.5242 24.9496 11.6748 24.2235 12.6103C23.4974 13.5457 22.4805 14.2129 21.3333 14.5067"
+                                    stroke="white" stroke-width="2.66667" stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                            </svg>
+                        </div>
+                        <div class="card-body">
+                            <h3 class="colorBlack4 fontSize24 font-bold">المسؤولية الاجتماعية</h3>
+                            <p class="mb-0 drarkGreen3 style-font fontSize14">المساهمة في تنمية المجتمع ودعم المبادرات
+                                الوطنية والمشاريع التنموية</p>
+                        </div>
+                    </div>
+
+                    <div class="value-card">
+                        <div class="card-icon teal-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32"
+                                fill="none">
+                                <path
+                                    d="M14.6666 26.6665C12.3254 26.6736 10.067 25.8005 8.33931 24.2204C6.61166 22.6403 5.54097 20.4686 5.3396 18.136C5.13822 15.8034 5.82087 13.4803 7.25215 11.6275C8.68343 9.77467 10.7588 8.52744 13.0666 8.13317C20.6666 6.6665 22.6666 5.97317 25.3333 2.6665C26.6666 5.33317 28 8.23984 28 13.3332C28 20.6665 21.6266 26.6665 14.6666 26.6665Z"
+                                    stroke="white" stroke-width="2.66667" stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                                <path
+                                    d="M2.66669 28C2.66669 24 5.13335 20.8533 9.44002 20C12.6667 19.36 16 17.3333 17.3334 16"
+                                    stroke="white" stroke-width="2.66667" stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                            </svg>
+                        </div>
+                        <div class="card-body">
+                            <h3 class="colorBlack4 fontSize24 font-bold">التنمية المستدامة</h3>
+                            <p class="mb-0 drarkGreen3 style-font fontSize14">تبني ممارسات صديقة للبيئة وتطوير مشاريع
+                                تحقق الاستدامة على المدى البعيد</p>
+                        </div>
+                    </div>
+                    <div class="value-card main-card">
+                        <div class="card-body">
+                            <h3 class="text-center fontSize24 font-bold colorWhite">نبني على أساس متين</h3>
+                            <p class="mb-0 style-font fontSize14 text-center ">قيمنا ليست مجرد كلمات، بل هي
+                                التزامات
+                                نعيشها يومياً في كل مشروع وكل قرار
+                                نتخذه</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="sectionEight">
+            <div class="sectionEight-container px-110">
+                <div class="header-content">
+                    <h2 class="font-bold fontSize50 colorWhite " data-aos="fade-up"
+                        data-aos-anchor-placement="center-bottom" data-aos="fade-up"
+                        data-aos-anchor-placement="center-bottom">إنجازاتنا بالأرقام</h2>
+                    <div class="title-separator">
+                        <div class="separator-line"></div>
+                        <div class="dot"></div>
+                        <div class="separator-line2"></div>
+                    </div>
+                </div>
+                <div class="stats-grid fx-keyFigures">
+                    <div class="stat-card">
+                        <div class="icon-wrapper blue-bg">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32"
+                                fill="none">
+                                <path
+                                    d="M8 29.3332V5.33317C8 4.62593 8.28095 3.94765 8.78105 3.44755C9.28115 2.94746 9.95942 2.6665 10.6667 2.6665H21.3333C22.0406 2.6665 22.7189 2.94746 23.219 3.44755C23.719 3.94765 24 4.62593 24 5.33317V29.3332H8Z"
+                                    stroke="white" stroke-width="2.66667" stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                                <path
+                                    d="M7.99996 16H5.33329C4.62605 16 3.94777 16.281 3.44767 16.781C2.94758 17.2811 2.66663 17.9594 2.66663 18.6667V26.6667C2.66663 27.3739 2.94758 28.0522 3.44767 28.5523C3.94777 29.0524 4.62605 29.3333 5.33329 29.3333H7.99996"
+                                    stroke="white" stroke-width="2.66667" stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                                <path
+                                    d="M24 12H26.6667C27.3739 12 28.0522 12.281 28.5523 12.781C29.0524 13.2811 29.3333 13.9594 29.3333 14.6667V26.6667C29.3333 27.3739 29.0524 28.0522 28.5523 28.5523C28.0522 29.0524 27.3739 29.3333 26.6667 29.3333H24"
+                                    stroke="white" stroke-width="2.66667" stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                                <path d="M13.3334 8H18.6667" stroke="white" stroke-width="2.66667"
+                                    stroke-linecap="round" stroke-linejoin="round" />
+                                <path d="M13.3334 13.3335H18.6667" stroke="white" stroke-width="2.66667"
+                                    stroke-linecap="round" stroke-linejoin="round" />
+                                <path d="M13.3334 18.6665H18.6667" stroke="white" stroke-width="2.66667"
+                                    stroke-linecap="round" stroke-linejoin="round" />
+                                <path d="M13.3334 24H18.6667" stroke="white" stroke-width="2.66667"
+                                    stroke-linecap="round" stroke-linejoin="round" />
+                            </svg>
+                        </div>
+                        <h3 class="stat-number fontSize50 font-bold colorWhite text-center counter" data-count="50"
+                            data-suffix="+">0+
+                        </h3>
+                        <p class="stat-label style-font text-center fontSize20 mb-0 colorWhite">مشروع منجز</p>
+                    </div>
+                    <div class="stat-card">
+                        <div class="icon-wrapper green-bg">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32"
+                                fill="none">
+                                <path
+                                    d="M21.3334 28V25.3333C21.3334 23.9188 20.7714 22.5623 19.7713 21.5621C18.7711 20.5619 17.4145 20 16 20H8.00002C6.58553 20 5.22898 20.5619 4.22878 21.5621C3.22859 22.5623 2.66669 23.9188 2.66669 25.3333V28"
+                                    stroke="white" stroke-width="2.66667" stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                                <path
+                                    d="M12 14.6667C14.9455 14.6667 17.3334 12.2789 17.3334 9.33333C17.3334 6.38781 14.9455 4 12 4C9.0545 4 6.66669 6.38781 6.66669 9.33333C6.66669 12.2789 9.0545 14.6667 12 14.6667Z"
+                                    stroke="white" stroke-width="2.66667" stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                                <path
+                                    d="M29.3333 28V25.3333C29.3324 24.1516 28.9391 23.0037 28.2151 22.0698C27.4911 21.1358 26.4775 20.4688 25.3333 20.1733"
+                                    stroke="white" stroke-width="2.66667" stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                                <path
+                                    d="M21.3333 4.17334C22.4805 4.46707 23.4974 5.13427 24.2235 6.06975C24.9496 7.00523 25.3438 8.15578 25.3438 9.34001C25.3438 10.5242 24.9496 11.6748 24.2235 12.6103C23.4974 13.5457 22.4805 14.2129 21.3333 14.5067"
+                                    stroke="white" stroke-width="2.66667" stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                            </svg>
+                        </div>
+                        <h3 class="stat-number fontSize50 font-bold colorWhite text-center counter" data-count="100"
+                            data-suffix="+">0+
+                        </h3>
+                        <p class="stat-label style-font text-center fontSize20 mb-0 colorWhite">موظف متخصص</p>
+                    </div>
+                    <div class="stat-card">
+                        <div class="icon-wrapper purple-bg">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32"
+                                fill="none">
+                                <path
+                                    d="M20.636 17.187L22.656 28.555C22.6786 28.6889 22.6598 28.8264 22.6021 28.9493C22.5445 29.0722 22.4506 29.1746 22.3332 29.2427C22.2158 29.3109 22.0804 29.3415 21.945 29.3306C21.8097 29.3197 21.681 29.2677 21.576 29.1817L16.8026 25.599C16.5722 25.4269 16.2923 25.3338 16.0046 25.3338C15.717 25.3338 15.4371 25.4269 15.2066 25.599L10.4253 29.1803C10.3204 29.2663 10.1918 29.3181 10.0566 29.3291C9.92148 29.34 9.7862 29.3094 9.66886 29.2415C9.55151 29.1736 9.45767 29.0714 9.39987 28.9488C9.34206 28.8261 9.32302 28.6888 9.34531 28.555L11.364 17.187"
+                                    stroke="white" stroke-width="2.66667" stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                                <path
+                                    d="M16 18.6665C20.4183 18.6665 24 15.0848 24 10.6665C24 6.24823 20.4183 2.6665 16 2.6665C11.5817 2.6665 8 6.24823 8 10.6665C8 15.0848 11.5817 18.6665 16 18.6665Z"
+                                    stroke="white" stroke-width="2.66667" stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                            </svg>
+                        </div>
+                        <h3 class="stat-number fontSize50 font-bold colorWhite text-center counter" data-count="99"
+                            data-suffix="%">0%
+                        </h3>
+                        <p class="stat-label style-font text-center fontSize20 mb-0 colorWhite">رضا العملاء</p>
+                    </div>
+                    <div class="stat-card">
+                        <div class="icon-wrapper orange-bg">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32"
+                                fill="none">
+                                <path d="M29.3333 9.3335L18 20.6668L11.3333 14.0002L2.66667 22.6668" stroke="white"
+                                    stroke-width="2.66667" stroke-linecap="round" stroke-linejoin="round" />
+                                <path d="M21.3333 9.3335H29.3333V17.3335" stroke="white" stroke-width="2.66667"
+                                    stroke-linecap="round" stroke-linejoin="round" />
+                            </svg>
+                        </div>
+                        <h3 class="stat-number fontSize50 font-bold colorWhite text-center counter" data-count="10"
+                            data-suffix="+">0+
+                        </h3>
+                        <p class="stat-label style-font text-center fontSize20 mb-0 colorWhite">سنوات خبرة</p>
+                    </div>
+                </div>
+                <div class="section-footer">
+                    <p class="mb-0 text-center style-font fontSize20">نواصل النمو والتطور لنكون شريكك الأمثل في تحقيق
+                        طموحاتك الإنشائية</p>
+                </div>
+            </div>
+        </section>
+        <section class="sectionNine" id="projects">
+            <div class="sectionNine-container px-50">
+                <div class="header-content d-flex flex-column align-items-center text-center">
+                    <span class="font-bold drarkGreen2 fontSize16">إنجازاتنا</span>
+                    <div class="title-separator">
+                        <div class="separator-line"></div>
+                        <span class="dot"></span>
+                        <div class="separator-line2"></div>
+                    </div>
+                    <h2 class="font-bold colorBlack4 fontSize45 mb-0" data-aos="fade-up"
+                        data-aos-anchor-placement="center-bottom">نماذج من أعمالنا</h2>
+                    <p class="style-font drarkGreen3 fontSize18 px-150 ">
+                        نفخر بمشاريعنا المتنوعة التي تعكس خبرتنا العميقة وقدرتنا على تسليم أعمال بجودة استثنائية
+                    </p>
+                </div>
+
+                <div class="gallery-grid">
+                    <div class="gallery-item item-wide">
+                        <img src="./images/img3.png" alt="مشروع إنشائي">
+                        <!-- <div class="overlay"><span>تفاصيل المشروع</span></div> -->
+                    </div>
+                    <div class="gallery-item">
+                        <img src="./images/img2.png" alt="مشروع إنشائي">
+                        <!-- <div class="overlay"><span>تفاصيل المشروع</span></div> -->
+                    </div>
+                    <div class="gallery-item">
+                        <img src="./images/img1.png" alt="مشروع إنشائي">
+                        <!-- <div class="overlay"><span>تفاصيل المشروع</span></div> -->
+                    </div>
+                    <div class="gallery-item">
+                        <img src="./images/img6.png" alt="مشروع إنشائي">
+                        <!-- <div class="overlay"><span>تفاصيل المشروع</span></div> -->
+                    </div>
+                    <div class="gallery-item item-tall">
+                        <img src="./images/img5.png" alt="مشروع إنشائي">
+                        <!-- <div class="overlay"><span>تفاصيل المشروع</span></div> -->
+                    </div>
+                    <div class="gallery-item item-wide">
+                        <img src="./images/img4.png" alt="مشروع إنشائي">
+                        <!-- <div class="overlay"><span>تفاصيل المشروع</span></div> -->
+                    </div>
+
+                    <div class="gallery-item">
+                        <img src="./images/img8.png" alt="مشروع إنشائي">
+                        <!-- <div class="overlay"><span>تفاصيل المشروع</span></div> -->
+                    </div>
+                    <div class="gallery-item">
+                        <img src="./images/img7.png" alt="مشروع إنشائي">
+                        <!-- <div class="overlay"><span>تفاصيل المشروع</span></div> -->
+                    </div>
+                    <div class="gallery-item">
+                        <img src="./images/img9.png" alt="مشروع إنشائي">
+                        <!-- <div class="overlay"><span>تفاصيل المشروع</span></div> -->
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="sectionFour mx-auto">
+            <div
+                class="px-100 d-flex flex-column align-items-center justify-content-center text-center h-100 content-wrapper">
+                <h1 class="font-bold fontSize36 colorWhite" data-aos="fade-up"
+                    data-aos-anchor-placement="center-bottom">سجل حافل من النجاحات</h1>
+                <p class="style-font fontSize18 colorWhite opacity8 mb-0">نواصل تقديم مشاريع متميزة تساهم في بناء مستقبل
+                    المملكة العربية <br>
+                    السعودية وتحقيق رؤية 2030</p>
+            </div>
+        </section>
+        <section class="sectionTen" id="contact">
+            <div class="px-100">
+                <div class="header-content">
+                    <span class="font-bold drarkGreen2 fontSize16 text-center">تواصل معنا</span>
+                    <div class="title-separator">
+                        <div class="separator-line"></div>
+                        <span class="dot"></span>
+                        <div class="separator-line2"></div>
+                    </div>
+                    <h2 class="font-bold fontSize45 colorBlack4" data-aos="fade-up"
+                        data-aos-anchor-placement="center-bottom">نحن هنا لخدمتك</h2>
+                    <p class="font-medium fontSize18 drarkGreen3 mb-0">تواصل معنا اليوم ودعنا نساعدك في تحقيق رؤيتك
+                        الإنشائية
+                    </p>
+                </div>
+
+                <div class="contact-container">
+                    <div class="contact-details-list d-flex flex-column justify-content-center">
+                        <div class="detail-item">
+                            <div class="detail-icon blue-bg d-flex align-items-center justify-content-center">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32"
+                                    fill="none">
+                                    <path
+                                        d="M26.6666 5.3335H5.33329C3.86053 5.3335 2.66663 6.5274 2.66663 8.00016V24.0002C2.66663 25.4729 3.86053 26.6668 5.33329 26.6668H26.6666C28.1394 26.6668 29.3333 25.4729 29.3333 24.0002V8.00016C29.3333 6.5274 28.1394 5.3335 26.6666 5.3335Z"
+                                        stroke="white" stroke-width="2.66667" stroke-linecap="round"
+                                        stroke-linejoin="round" />
+                                    <path
+                                        d="M29.3333 9.3335L17.3733 16.9335C16.9617 17.1914 16.4857 17.3282 16 17.3282C15.5142 17.3282 15.0383 17.1914 14.6266 16.9335L2.66663 9.3335"
+                                        stroke="white" stroke-width="2.66667" stroke-linecap="round"
+                                        stroke-linejoin="round" />
+                                </svg>
+                            </div>
+                            <div class="detail-text">
+                                <span class="label font-medium">البريد الإلكتروني</span>
+                                <span class="value font-bold">info@adaid-sa.com</span>
+                            </div>
+
+                        </div>
+
+                        <div class="detail-item">
+                            <div class="detail-icon green-bg d-flex align-items-center justify-content-center">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32"
+                                    fill="none">
+                                    <path
+                                        d="M29.3334 22.56V26.56C29.3349 26.9313 29.2589 27.2989 29.1101 27.6391C28.9613 27.9793 28.7431 28.2848 28.4695 28.5358C28.1959 28.7868 27.8728 28.9779 27.5211 29.0969C27.1693 29.2159 26.7966 29.2601 26.4267 29.2266C22.3239 28.7808 18.3827 27.3788 14.9201 25.1333C11.6985 23.0862 8.96719 20.3549 6.92007 17.1333C4.66671 13.6549 3.2644 9.69463 2.82674 5.5733C2.79342 5.20459 2.83724 4.83298 2.95541 4.48213C3.07357 4.13128 3.2635 3.80889 3.51309 3.53546C3.76269 3.26204 4.06648 3.04358 4.40513 2.894C4.74378 2.74441 5.10986 2.66698 5.48007 2.66663H9.48007C10.1271 2.66026 10.7545 2.8894 11.2451 3.31134C11.7357 3.73328 12.0562 4.31923 12.1467 4.95997C12.3156 6.24006 12.6287 7.49694 13.0801 8.70663C13.2595 9.18387 13.2983 9.70252 13.1919 10.2011C13.0856 10.6998 12.8386 11.1574 12.4801 11.52L10.7867 13.2133C12.6848 16.5514 15.4487 19.3152 18.7867 21.2133L20.4801 19.52C20.8426 19.1615 21.3003 18.9144 21.7989 18.8081C22.2975 18.7018 22.8162 18.7406 23.2934 18.92C24.5031 19.3714 25.76 19.6845 27.0401 19.8533C27.6878 19.9447 28.2793 20.2709 28.7021 20.77C29.125 21.269 29.3496 21.9061 29.3334 22.56Z"
+                                        stroke="white" stroke-width="2.66667" stroke-linecap="round"
+                                        stroke-linejoin="round" />
+                                </svg>
+                            </div>
+                            <div class="detail-text">
+                                <span class="label font-medium">الهاتف</span>
+                                <span class="value font-bold">0112066035 / 0505170627</span>
+                            </div>
+                        </div>
+
+                        <div class="detail-item">
+                            <div class="detail-icon purple-bg d-flex align-items-center justify-content-center">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32"
+                                    fill="none">
+                                    <path
+                                        d="M26.6667 13.3332C26.6667 19.9905 19.2814 26.9238 16.8014 29.0652C16.5703 29.2389 16.2891 29.3328 16 29.3328C15.711 29.3328 15.4297 29.2389 15.1987 29.0652C12.7187 26.9238 5.33337 19.9905 5.33337 13.3332C5.33337 10.5042 6.45718 7.79109 8.45757 5.7907C10.458 3.79031 13.1711 2.6665 16 2.6665C18.829 2.6665 21.5421 3.79031 23.5425 5.7907C25.5429 7.79109 26.6667 10.5042 26.6667 13.3332Z"
+                                        stroke="white" stroke-width="2.66667" stroke-linecap="round"
+                                        stroke-linejoin="round" />
+                                    <path
+                                        d="M16 17.3335C18.2091 17.3335 20 15.5426 20 13.3335C20 11.1244 18.2091 9.3335 16 9.3335C13.7909 9.3335 12 11.1244 12 13.3335C12 15.5426 13.7909 17.3335 16 17.3335Z"
+                                        stroke="white" stroke-width="2.66667" stroke-linecap="round"
+                                        stroke-linejoin="round" />
+                                </svg>
+                            </div>
+                            <div class="detail-text">
+                                <span class="label font-medium">الموقع</span>
+                                <span class="value font-bold">المملكة العربية السعودية</span>
+                            </div>
+                        </div>
+
+                        <div class="detail-item">
+                            <div class="detail-icon orange-bg d-flex align-items-center justify-content-center">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32"
+                                    fill="none">
+                                    <path
+                                        d="M8 29.3332V5.33317C8 4.62593 8.28095 3.94765 8.78105 3.44755C9.28115 2.94746 9.95942 2.6665 10.6667 2.6665H21.3333C22.0406 2.6665 22.7189 2.94746 23.219 3.44755C23.719 3.94765 24 4.62593 24 5.33317V29.3332H8Z"
+                                        stroke="white" stroke-width="2.66667" stroke-linecap="round"
+                                        stroke-linejoin="round" />
+                                    <path
+                                        d="M7.99996 16H5.33329C4.62605 16 3.94777 16.281 3.44767 16.781C2.94758 17.2811 2.66663 17.9594 2.66663 18.6667V26.6667C2.66663 27.3739 2.94758 28.0522 3.44767 28.5523C3.94777 29.0524 4.62605 29.3333 5.33329 29.3333H7.99996"
+                                        stroke="white" stroke-width="2.66667" stroke-linecap="round"
+                                        stroke-linejoin="round" />
+                                    <path
+                                        d="M24 12H26.6667C27.3739 12 28.0522 12.281 28.5523 12.781C29.0524 13.2811 29.3333 13.9594 29.3333 14.6667V26.6667C29.3333 27.3739 29.0524 28.0522 28.5523 28.5523C28.0522 29.0524 27.3739 29.3333 26.6667 29.3333H24"
+                                        stroke="white" stroke-width="2.66667" stroke-linecap="round"
+                                        stroke-linejoin="round" />
+                                    <path d="M13.3334 8H18.6667" stroke="white" stroke-width="2.66667"
+                                        stroke-linecap="round" stroke-linejoin="round" />
+                                    <path d="M13.3334 13.3335H18.6667" stroke="white" stroke-width="2.66667"
+                                        stroke-linecap="round" stroke-linejoin="round" />
+                                    <path d="M13.3334 18.6665H18.6667" stroke="white" stroke-width="2.66667"
+                                        stroke-linecap="round" stroke-linejoin="round" />
+                                    <path d="M13.3334 24H18.6667" stroke="white" stroke-width="2.66667"
+                                        stroke-linecap="round" stroke-linejoin="round" />
+                                </svg>
+                            </div>
+                            <div class="detail-text">
+                                <span class="label font-medium">السجل الموحد</span>
+                                <span class="value font-bold">7053252214</span>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="contact-info-card">
+                        <div class="card-icon-main d-flex align-items-center justify-content-center">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32"
+                                fill="none">
+                                <path
+                                    d="M19.3813 28.9149C19.432 29.0411 19.5201 29.1489 19.6337 29.2236C19.7474 29.2984 19.8811 29.3366 20.0171 29.3331C20.1531 29.3296 20.2848 29.2846 20.3944 29.2041C20.5041 29.1237 20.5865 29.0116 20.6307 28.8829L29.2973 3.54957C29.34 3.43143 29.3482 3.30358 29.3208 3.18098C29.2935 3.05838 29.2318 2.9461 29.143 2.85727C29.0541 2.76845 28.9419 2.70676 28.8193 2.67943C28.6967 2.65209 28.5688 2.66023 28.4507 2.7029L3.11734 11.3696C2.98867 11.4137 2.87657 11.4961 2.7961 11.6058C2.71563 11.7155 2.67063 11.8471 2.66715 11.9831C2.66367 12.1191 2.70186 12.2529 2.77662 12.3665C2.85137 12.4802 2.95909 12.5682 3.08534 12.6189L13.6587 16.8589C13.9929 16.9927 14.2966 17.1929 14.5514 17.4472C14.8062 17.7016 15.0069 18.0049 15.1413 18.3389L19.3813 28.9149Z"
+                                    stroke="white" stroke-width="2.66667" stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                                <path d="M29.1387 2.86279L14.552 17.4481" stroke="white" stroke-width="2.66667"
+                                    stroke-linecap="round" stroke-linejoin="round" />
+                            </svg>
+                        </div>
+                        <h3 class="font-bold fontSize28 colorWhite">ابدأ مشروعك معنا</h3>
+                        <p class="font-medium fontSize16 colorWhite">نحن مستعدون لتقديم استشارة مجانية ومناقشة متطلبات
+                            مشروعك بكل
+                            تفصيل. فريقنا جاهز للرد على استفساراتك وتقديم أفضل الحلول
+                            الإنشائية.</p>
+                        <ul class="contact-features font-medium">
+                            <li>استشارة مجانية</li>
+                            <li>رد سريع</li>
+                            <li>حلول مخصصة لاحتياجاتك</li>
+                        </ul>
+                        <button class="contact-btn font-bold">تواصل الآن</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="sectionSlider">
+            <div class="sectionSlider-container">
+                <h1 class="font-bold fontSize32 text-center colorBlack4 ">شركاء النجاح</h1>
+                <div class="widthSwiperSlider">
+                    <div
+                        class="swiper swiperLogos swiper-container-initialized swiper-container-horizontal swiper-container-rtl">
+                        <div class="swiper-wrapper"
+                            style="transition-duration: 0ms; transform: translate3d(1217px, 0px, 0px);">
+                            <div class="swiper-slide swiper-slide-prev" style="width: 405.667px;"
+                                data-swiper-slide-index="0">
+                                <img src="./images/logos/AmericanExpress.svg" alt="logo Image">
+                            </div>
+                            <div class="swiper-slide swiper-slide-active" style="width: 405.667px;"
+                                data-swiper-slide-index="1">
+                                <img src="./images/logos/GooglePay.svg" alt="logo Image">
+                            </div>
+                            <div class="swiper-slide " style="width: 405.667px;" data-swiper-slide-index="2">
+                                <img src="./images/logos/Maestro.svg" alt="logo Image">
+                            </div>
+                            <div class="swiper-slide " style="width: 405.667px;" data-swiper-slide-index="2">
+                                <img src="./images/logos/SamsungPay.svg" alt="logo Image">
+                            </div>
+                            <div class="swiper-slide swiper-slide-next" style="width: 405.667px;"
+                                data-swiper-slide-index="2">
+                                <img src="./images/logos/ShopPay.svg" alt="logo Image">
+                            </div>
+
+                        </div>
+
+                        <span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footerSection pt-5">
+        <div class="footerSection-container px-150">
+            <div class="fx-footerSection d-flex justify-content-between align-items-start flex-wrap">
+
+                <div class="footer-col info-col ">
+                    <div class="d-flex align-items-center gap-3 mb-4">
+                        <div class="footer-logo">
+                            <i class="fas fa-building fontSize32 colorWhite"></i>
+                        </div>
+                        <img src="./images/logoFooter.svg" alt="">
+                    </div>
+                    <p class="font-light fontSize14 colorWhite opacity8 pt-2 line-height-1-6">
+                        شركة سعودية رائدة في مجال المقاولات والبنية التحتية، نساهم في بناء مستقبل المملكة من خلال مشاريع
+                        متميزة تحقق أعلى معايير الجودة والتميز.
+                    </p>
+                    <div class="sijil-badge mt-4 d-flex align-items-center justify-content-center gap-2">
+                        <span class="font-bold fontSize14 colorWhite">السجل الموحد:</span>
+                        <span class="style-font fontSize14 colorWhite">7053252214</span>
+                    </div>
+                </div>
+
+                <div class="footer-col links-col">
+                    <h4 class="font-bold fontSize20 colorWhite mb-4 mt-2">روابط سريعة</h4>
+                    <ul class="d-flex flex-column gap-3 pt-2">
+                        <li><a class="textUnDecoration font-light fontSize16 colorWhite opacity8">عن الشركة</a></li>
+                        <li><a class="textUnDecoration font-light fontSize16 colorWhite opacity8">خدماتنا</a></li>
+                        <li><a class="textUnDecoration font-light fontSize16 colorWhite opacity8">الرؤية والرسالة</a>
+                        </li>
+                        <li><a class="textUnDecoration font-light fontSize16 colorWhite opacity8">المشاريع</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-col contact-col">
+                    <h4 class="font-bold fontSize20 colorWhite mb-4 mt-2">معلومات التواصل</h4>
+                    <ul class="d-flex flex-column gap-3 pt-2">
+                        <li class="d-flex align-items-center gap-2">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"
+                                fill="none">
+                                <path
+                                    d="M13.3333 2.66699H2.66666C1.93028 2.66699 1.33333 3.26395 1.33333 4.00033V12.0003C1.33333 12.7367 1.93028 13.3337 2.66666 13.3337H13.3333C14.0697 13.3337 14.6667 12.7367 14.6667 12.0003V4.00033C14.6667 3.26395 14.0697 2.66699 13.3333 2.66699Z"
+                                    stroke="white" stroke-opacity="0.6" stroke-width="1.33333" stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                                <path
+                                    d="M14.6667 4.66699L8.68666 8.46699C8.48084 8.59594 8.24287 8.66433 7.99999 8.66433C7.75712 8.66433 7.51915 8.59594 7.31333 8.46699L1.33333 4.66699"
+                                    stroke="white" stroke-opacity="0.6" stroke-width="1.33333" stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                            </svg>
+                            <span class="font-light fontSize15 colorWhite opacity8">info@adaid-sa.com</span>
+                        </li>
+                        <li class="d-flex align-items-center gap-2">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"
+                                fill="none">
+                                <g clip-path="url(#clip0_2_534)">
+                                    <path
+                                        d="M14.6667 11.2797V13.2797C14.6674 13.4654 14.6294 13.6492 14.555 13.8193C14.4806 13.9894 14.3715 14.1421 14.2347 14.2676C14.0979 14.3932 13.9364 14.4887 13.7605 14.5482C13.5846 14.6077 13.3982 14.6298 13.2133 14.6131C11.1619 14.3902 9.19132 13.6892 7.45999 12.5664C5.84921 11.5428 4.48355 10.1772 3.45999 8.56641C2.33331 6.82721 1.63215 4.84707 1.41332 2.78641C1.39666 2.60205 1.41857 2.41625 1.47766 2.24082C1.53674 2.0654 1.6317 1.9042 1.7565 1.76749C1.8813 1.63077 2.03319 1.52155 2.20252 1.44675C2.37184 1.37196 2.55488 1.33325 2.73999 1.33307H4.73999C5.06353 1.32989 5.37719 1.44446 5.6225 1.65543C5.86781 1.8664 6.02804 2.15937 6.07332 2.47974C6.15774 3.11978 6.31429 3.74822 6.53999 4.35307C6.62969 4.59169 6.6491 4.85102 6.59593 5.10033C6.54276 5.34964 6.41923 5.57848 6.23999 5.75974L5.39332 6.60641C6.34236 8.27544 7.72429 9.65737 9.39332 10.6064L10.24 9.75974C10.4213 9.5805 10.6501 9.45697 10.8994 9.4038C11.1487 9.35063 11.408 9.37004 11.6467 9.45974C12.2515 9.68544 12.8799 9.84199 13.52 9.92641C13.8438 9.97209 14.1396 10.1352 14.351 10.3847C14.5624 10.6343 14.6748 10.9528 14.6667 11.2797Z"
+                                        stroke="white" stroke-opacity="0.6" stroke-width="1.33333"
+                                        stroke-linecap="round" stroke-linejoin="round" />
+                                </g>
+                                <defs>
+                                    <clipPath id="clip0_2_534">
+                                        <rect width="16" height="16" fill="white" />
+                                    </clipPath>
+                                </defs>
+                            </svg>
+                            <span class="font-light fontSize15 colorWhite opacity8">0112066035</span>
+                        </li>
+                        <li class="d-flex align-items-center gap-2">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"
+                                fill="none">
+                                <g clip-path="url(#clip0_2_534)">
+                                    <path
+                                        d="M14.6667 11.2797V13.2797C14.6674 13.4654 14.6294 13.6492 14.555 13.8193C14.4806 13.9894 14.3715 14.1421 14.2347 14.2676C14.0979 14.3932 13.9364 14.4887 13.7605 14.5482C13.5846 14.6077 13.3982 14.6298 13.2133 14.6131C11.1619 14.3902 9.19132 13.6892 7.45999 12.5664C5.84921 11.5428 4.48355 10.1772 3.45999 8.56641C2.33331 6.82721 1.63215 4.84707 1.41332 2.78641C1.39666 2.60205 1.41857 2.41625 1.47766 2.24082C1.53674 2.0654 1.6317 1.9042 1.7565 1.76749C1.8813 1.63077 2.03319 1.52155 2.20252 1.44675C2.37184 1.37196 2.55488 1.33325 2.73999 1.33307H4.73999C5.06353 1.32989 5.37719 1.44446 5.6225 1.65543C5.86781 1.8664 6.02804 2.15937 6.07332 2.47974C6.15774 3.11978 6.31429 3.74822 6.53999 4.35307C6.62969 4.59169 6.6491 4.85102 6.59593 5.10033C6.54276 5.34964 6.41923 5.57848 6.23999 5.75974L5.39332 6.60641C6.34236 8.27544 7.72429 9.65737 9.39332 10.6064L10.24 9.75974C10.4213 9.5805 10.6501 9.45697 10.8994 9.4038C11.1487 9.35063 11.408 9.37004 11.6467 9.45974C12.2515 9.68544 12.8799 9.84199 13.52 9.92641C13.8438 9.97209 14.1396 10.1352 14.351 10.3847C14.5624 10.6343 14.6748 10.9528 14.6667 11.2797Z"
+                                        stroke="white" stroke-opacity="0.6" stroke-width="1.33333"
+                                        stroke-linecap="round" stroke-linejoin="round" />
+                                </g>
+                                <defs>
+                                    <clipPath id="clip0_2_534">
+                                        <rect width="16" height="16" fill="white" />
+                                    </clipPath>
+                                </defs>
+                            </svg>
+                            <span class="font-light fontSize15 colorWhite opacity8">0505170627</span>
+                        </li>
+                        <li class="d-flex align-items-center gap-2">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"
+                                fill="none">
+                                <path
+                                    d="M13.3333 6.66634C13.3333 9.99501 9.64067 13.4617 8.40067 14.5323C8.28515 14.6192 8.14454 14.6662 8.00001 14.6662C7.85547 14.6662 7.71486 14.6192 7.59934 14.5323C6.35934 13.4617 2.66667 9.99501 2.66667 6.66634C2.66667 5.25185 3.22858 3.8953 4.22877 2.89511C5.22896 1.89491 6.58552 1.33301 8.00001 1.33301C9.41449 1.33301 10.771 1.89491 11.7712 2.89511C12.7714 3.8953 13.3333 5.25185 13.3333 6.66634Z"
+                                    stroke="white" stroke-opacity="0.6" stroke-width="1.33333" stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                                <path
+                                    d="M8 8.66699C9.10457 8.66699 10 7.77156 10 6.66699C10 5.56242 9.10457 4.66699 8 4.66699C6.89543 4.66699 6 5.56242 6 6.66699C6 7.77156 6.89543 8.66699 8 8.66699Z"
+                                    stroke="white" stroke-opacity="0.6" stroke-width="1.33333" stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                            </svg>
+                            <span class="font-light fontSize15 colorWhite opacity8">المملكة العربية السعودية</span>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+
+            <div class="footer-bottom mt-5 pt-4 pb-4 d-flex justify-content-between align-items-center flex-wrap gap-3">
+                <p class="font-light fontSize14 colorWhite opacity8 mb-0">© 2026 شركة عدائد المحدودة - جميع الحقوق
+                    محفوظة</p>
+                <p class="font-light fontSize14 colorWhite opacity8 mb-0">نساهم في تحقيق رؤية المملكة 2030</p>
+            </div>
+        </div>
+    </footer>
+    <!-- Jquery Library -->
+    <script src="./js/jquery/jquery.min.js"></script>
+    <!-- Swiper Slider -->
+    <script src="./js/swiperSlider/swiper4.5.0.min.js"></script>
+    <script src="./js/swiperSlider/swiper.js"></script>
+    <!--Navbar JS-->
+    <script src="./js/navbar.js"></script>
+    <!--Header JS-->
+    <script src="./js/header.js"></script>
+    <!-- AOS Animation JS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>AOS.init();</script>
+
+    <!-- Counter Section Js -->
+    <script>
+        let hasCounted = false;
+
+        $(document).ready(function () {
+            $(".counter").each(function () {
+                $(this).text("0");
+            });
+        });
+
+        function isInViewport(element) {
+            const rect = element.getBoundingClientRect();
+            return rect.top <= (window.innerHeight || document.documentElement.clientHeight);
+        }
+
+        function animateCounters() {
+            $(".counter").each(function () {
+                const $this = $(this);
+                const countTo = parseInt($this.attr("data-count"));
+                const suffix = $this.attr("data-suffix") || "";
+
+                $this.prop("Counter", 0).animate(
+                    { Counter: countTo },
+                    {
+                        duration: 3000,
+                        easing: "swing",
+                        step: function (now) {
+                            $this.text(Math.ceil(now) + suffix);
+                        },
+                        complete: function () {
+                            $this.text(countTo + suffix);
+                        }
+                    }
+                );
+            });
+        }
+
+        $(window).on("scroll", function () {
+            if (!hasCounted && isInViewport(document.querySelector(".fx-keyFigures"))) {
+                hasCounted = true;
+                setTimeout(() => {
+                    animateCounters();
+                }, 1000);
+            }
+        });
+        $(window).on("scroll load", function () {
+            const el = document.querySelector(".fx-keyFigures");
+            if (!hasCounted && el && isInViewport(el)) {
+                hasCounted = true;
+                animateCounters();
+            }
+        });
+
+    </script>
+    <script src="./js/scrollLinks.js"></script>
+</body>
+
+</html>
