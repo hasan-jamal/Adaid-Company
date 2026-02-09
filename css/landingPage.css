@@ -267,6 +267,8 @@ background: linear-gradient(270deg, rgba(0, 0, 0, 0.00) 0%, #FFF 100%);
     .sectionFour {
         width: calc(100% - 60px);
     }
+    .sectionFour .content-wrapper h1{margin-bottom: 1.8rem;}
+
 }
 @media (max-width: 768px) {
     .sectionFour {
@@ -275,6 +277,7 @@ background: linear-gradient(270deg, rgba(0, 0, 0, 0.00) 0%, #FFF 100%);
     .sectionFour .content-wrapper {
         min-height: 200px;
     }
+    .sectionFour .content-wrapper h1{margin-bottom: 0.8rem;}
 }
 /* Section Five Style */
 .sectionFive { background-color: #F9F9F9; padding: 100px 0; overflow: hidden; }
