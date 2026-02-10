@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>عدائد المحدودة</title>
+    <title>شركة عدائد المحدودة</title>
     <link rel="shortcut icon" href="./images/logo.svg" type="image/x-icon" />
     <!---Style CSS-->
     <link rel="stylesheet" href="./css/general.css">
@@ -23,7 +23,7 @@
 <body>
     <div class="navbar-mobile">
         <div class=" align-items-center  justify-content-between  flex-head">
-            <a href="#home"><img src="./images/logo.svg" class="logo-image" /></a>
+            <a href="#home"><img src="./images/logoHeader.svg" class="logo-image" /></a>
             <div id="menu-toggle">
                 <button type="button" class="hamburger bg-none" id="hamburgerBtn" onclick="toggleSidenav();">
                     <div class="div1"></div>
@@ -49,7 +49,7 @@
     </div>
     <header>
         <div class="d-flex align-items-center fxHeader">
-            <div class="divLogo cPointer" onclick="window.location.href='index.html'"><img src="./images/logo.svg"
+            <div class="divLogo cPointer" onclick="window.location.href='index.html'"><img src="./images/logoHeader.svg"
                     alt="logo image"></div>
             <div class="linksHeader d-flex align-items-center ">
                 <a href="#home" class="fontSize16 style-font colorWhite active">الرئيسية</a>
@@ -180,8 +180,8 @@
                         </div>
 
                         <div class="cr-number-box mt-4">
-                            <span class="font-bold drarkGreen2 fontSize16">رقم السجل الموحد:</span>
-                            <span class="style-font colorBlack2 fontSize16" dir="ltr">7053252214</span>
+                            <span class="font-bold drarkGreen2 fontSize16">رقم السجل الوطني الموحد:</span>
+                            <span class="style-font colorBlack2 fontSize16 textUnDecoration" dir="ltr">7053252214</span>
                         </div>
                     </div>
                 </div>
@@ -863,7 +863,7 @@
 
                 <div class="contact-container">
                     <div class="contact-details-list d-flex flex-column justify-content-center">
-                        <div class="detail-item">
+                        <a href="mailto:info@adaid-sa.com" class="detail-item textUnDecoration">
                             <div class="detail-icon blue-bg d-flex align-items-center justify-content-center">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32"
                                     fill="none">
@@ -882,9 +882,9 @@
                                 <span class="value font-bold">info@adaid-sa.com</span>
                             </div>
 
-                        </div>
+                        </a>
 
-                        <div class="detail-item">
+                        <a class="detail-item textUnDecoration" href="tel:+966505170627">
                             <div class="detail-icon green-bg d-flex align-items-center justify-content-center">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32"
                                     fill="none">
@@ -896,9 +896,9 @@
                             </div>
                             <div class="detail-text">
                                 <span class="label font-medium">الهاتف</span>
-                                <span class="value font-bold">0112066035 / 0505170627</span>
+                                <span class="value font-bold">+966-112066035 / +966-505170627</span>
                             </div>
-                        </div>
+                        </a>
 
                         <div class="detail-item">
                             <div class="detail-icon purple-bg d-flex align-items-center justify-content-center">
@@ -947,7 +947,7 @@
                                 </svg>
                             </div>
                             <div class="detail-text">
-                                <span class="label font-medium">السجل الموحد</span>
+                                <span class="label font-medium">السجل الوطني الموحد</span>
                                 <span class="value font-bold">7053252214</span>
                             </div>
 
@@ -1051,52 +1051,58 @@
                     <h4 class="font-bold fontSize20 colorWhite mb-4 mt-2">معلومات التواصل</h4>
                     <ul class="d-flex flex-column gap-3 pt-2">
                         <li class="d-flex align-items-center gap-2">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"
-                                fill="none">
-                                <path
-                                    d="M13.3333 2.66699H2.66666C1.93028 2.66699 1.33333 3.26395 1.33333 4.00033V12.0003C1.33333 12.7367 1.93028 13.3337 2.66666 13.3337H13.3333C14.0697 13.3337 14.6667 12.7367 14.6667 12.0003V4.00033C14.6667 3.26395 14.0697 2.66699 13.3333 2.66699Z"
-                                    stroke="white" stroke-opacity="0.6" stroke-width="1.33333" stroke-linecap="round"
-                                    stroke-linejoin="round" />
-                                <path
-                                    d="M14.6667 4.66699L8.68666 8.46699C8.48084 8.59594 8.24287 8.66433 7.99999 8.66433C7.75712 8.66433 7.51915 8.59594 7.31333 8.46699L1.33333 4.66699"
-                                    stroke="white" stroke-opacity="0.6" stroke-width="1.33333" stroke-linecap="round"
-                                    stroke-linejoin="round" />
-                            </svg>
-                            <span class="font-light fontSize15 colorWhite opacity8">info@adaid-sa.com</span>
-                        </li>
-                        <li class="d-flex align-items-center gap-2">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"
-                                fill="none">
-                                <g clip-path="url(#clip0_2_534)">
+                            <a href="mailto:info@adaid-sa.com" target="_blank" class="colorWhite textUnDecoration">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"
+                                    fill="none">
                                     <path
-                                        d="M14.6667 11.2797V13.2797C14.6674 13.4654 14.6294 13.6492 14.555 13.8193C14.4806 13.9894 14.3715 14.1421 14.2347 14.2676C14.0979 14.3932 13.9364 14.4887 13.7605 14.5482C13.5846 14.6077 13.3982 14.6298 13.2133 14.6131C11.1619 14.3902 9.19132 13.6892 7.45999 12.5664C5.84921 11.5428 4.48355 10.1772 3.45999 8.56641C2.33331 6.82721 1.63215 4.84707 1.41332 2.78641C1.39666 2.60205 1.41857 2.41625 1.47766 2.24082C1.53674 2.0654 1.6317 1.9042 1.7565 1.76749C1.8813 1.63077 2.03319 1.52155 2.20252 1.44675C2.37184 1.37196 2.55488 1.33325 2.73999 1.33307H4.73999C5.06353 1.32989 5.37719 1.44446 5.6225 1.65543C5.86781 1.8664 6.02804 2.15937 6.07332 2.47974C6.15774 3.11978 6.31429 3.74822 6.53999 4.35307C6.62969 4.59169 6.6491 4.85102 6.59593 5.10033C6.54276 5.34964 6.41923 5.57848 6.23999 5.75974L5.39332 6.60641C6.34236 8.27544 7.72429 9.65737 9.39332 10.6064L10.24 9.75974C10.4213 9.5805 10.6501 9.45697 10.8994 9.4038C11.1487 9.35063 11.408 9.37004 11.6467 9.45974C12.2515 9.68544 12.8799 9.84199 13.52 9.92641C13.8438 9.97209 14.1396 10.1352 14.351 10.3847C14.5624 10.6343 14.6748 10.9528 14.6667 11.2797Z"
+                                        d="M13.3333 2.66699H2.66666C1.93028 2.66699 1.33333 3.26395 1.33333 4.00033V12.0003C1.33333 12.7367 1.93028 13.3337 2.66666 13.3337H13.3333C14.0697 13.3337 14.6667 12.7367 14.6667 12.0003V4.00033C14.6667 3.26395 14.0697 2.66699 13.3333 2.66699Z"
                                         stroke="white" stroke-opacity="0.6" stroke-width="1.33333"
                                         stroke-linecap="round" stroke-linejoin="round" />
-                                </g>
-                                <defs>
-                                    <clipPath id="clip0_2_534">
-                                        <rect width="16" height="16" fill="white" />
-                                    </clipPath>
-                                </defs>
-                            </svg>
-                            <span class="font-light fontSize15 colorWhite opacity8">0112066035</span>
-                        </li>
-                        <li class="d-flex align-items-center gap-2">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"
-                                fill="none">
-                                <g clip-path="url(#clip0_2_534)">
                                     <path
-                                        d="M14.6667 11.2797V13.2797C14.6674 13.4654 14.6294 13.6492 14.555 13.8193C14.4806 13.9894 14.3715 14.1421 14.2347 14.2676C14.0979 14.3932 13.9364 14.4887 13.7605 14.5482C13.5846 14.6077 13.3982 14.6298 13.2133 14.6131C11.1619 14.3902 9.19132 13.6892 7.45999 12.5664C5.84921 11.5428 4.48355 10.1772 3.45999 8.56641C2.33331 6.82721 1.63215 4.84707 1.41332 2.78641C1.39666 2.60205 1.41857 2.41625 1.47766 2.24082C1.53674 2.0654 1.6317 1.9042 1.7565 1.76749C1.8813 1.63077 2.03319 1.52155 2.20252 1.44675C2.37184 1.37196 2.55488 1.33325 2.73999 1.33307H4.73999C5.06353 1.32989 5.37719 1.44446 5.6225 1.65543C5.86781 1.8664 6.02804 2.15937 6.07332 2.47974C6.15774 3.11978 6.31429 3.74822 6.53999 4.35307C6.62969 4.59169 6.6491 4.85102 6.59593 5.10033C6.54276 5.34964 6.41923 5.57848 6.23999 5.75974L5.39332 6.60641C6.34236 8.27544 7.72429 9.65737 9.39332 10.6064L10.24 9.75974C10.4213 9.5805 10.6501 9.45697 10.8994 9.4038C11.1487 9.35063 11.408 9.37004 11.6467 9.45974C12.2515 9.68544 12.8799 9.84199 13.52 9.92641C13.8438 9.97209 14.1396 10.1352 14.351 10.3847C14.5624 10.6343 14.6748 10.9528 14.6667 11.2797Z"
+                                        d="M14.6667 4.66699L8.68666 8.46699C8.48084 8.59594 8.24287 8.66433 7.99999 8.66433C7.75712 8.66433 7.51915 8.59594 7.31333 8.46699L1.33333 4.66699"
                                         stroke="white" stroke-opacity="0.6" stroke-width="1.33333"
                                         stroke-linecap="round" stroke-linejoin="round" />
-                                </g>
-                                <defs>
-                                    <clipPath id="clip0_2_534">
-                                        <rect width="16" height="16" fill="white" />
-                                    </clipPath>
-                                </defs>
-                            </svg>
-                            <span class="font-light fontSize15 colorWhite opacity8">0505170627</span>
+                                </svg>
+                                <span class="font-light fontSize15 colorWhite opacity8">info@adaid-sa.com</span>
+                            </a>
+                        </li>
+                        <li class="d-flex align-items-center gap-2">
+                            <a href="tel:+966505170627" class="colorWhite textUnDecoration">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"
+                                    fill="none">
+                                    <g clip-path="url(#clip0_2_534)">
+                                        <path
+                                            d="M14.6667 11.2797V13.2797C14.6674 13.4654 14.6294 13.6492 14.555 13.8193C14.4806 13.9894 14.3715 14.1421 14.2347 14.2676C14.0979 14.3932 13.9364 14.4887 13.7605 14.5482C13.5846 14.6077 13.3982 14.6298 13.2133 14.6131C11.1619 14.3902 9.19132 13.6892 7.45999 12.5664C5.84921 11.5428 4.48355 10.1772 3.45999 8.56641C2.33331 6.82721 1.63215 4.84707 1.41332 2.78641C1.39666 2.60205 1.41857 2.41625 1.47766 2.24082C1.53674 2.0654 1.6317 1.9042 1.7565 1.76749C1.8813 1.63077 2.03319 1.52155 2.20252 1.44675C2.37184 1.37196 2.55488 1.33325 2.73999 1.33307H4.73999C5.06353 1.32989 5.37719 1.44446 5.6225 1.65543C5.86781 1.8664 6.02804 2.15937 6.07332 2.47974C6.15774 3.11978 6.31429 3.74822 6.53999 4.35307C6.62969 4.59169 6.6491 4.85102 6.59593 5.10033C6.54276 5.34964 6.41923 5.57848 6.23999 5.75974L5.39332 6.60641C6.34236 8.27544 7.72429 9.65737 9.39332 10.6064L10.24 9.75974C10.4213 9.5805 10.6501 9.45697 10.8994 9.4038C11.1487 9.35063 11.408 9.37004 11.6467 9.45974C12.2515 9.68544 12.8799 9.84199 13.52 9.92641C13.8438 9.97209 14.1396 10.1352 14.351 10.3847C14.5624 10.6343 14.6748 10.9528 14.6667 11.2797Z"
+                                            stroke="white" stroke-opacity="0.6" stroke-width="1.33333"
+                                            stroke-linecap="round" stroke-linejoin="round" />
+                                    </g>
+                                    <defs>
+                                        <clipPath id="clip0_2_534">
+                                            <rect width="16" height="16" fill="white" />
+                                        </clipPath>
+                                    </defs>
+                                </svg>
+                                <span class="font-light fontSize15 colorWhite opacity8">+966-0112066035</span>
+                            </a>
+                        </li>
+                        <li class="d-flex align-items-center gap-2">
+                            <a href="tel:+966505170627" class="colorWhite textUnDecoration">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"
+                                    fill="none">
+                                    <g clip-path="url(#clip0_2_534)">
+                                        <path
+                                            d="M14.6667 11.2797V13.2797C14.6674 13.4654 14.6294 13.6492 14.555 13.8193C14.4806 13.9894 14.3715 14.1421 14.2347 14.2676C14.0979 14.3932 13.9364 14.4887 13.7605 14.5482C13.5846 14.6077 13.3982 14.6298 13.2133 14.6131C11.1619 14.3902 9.19132 13.6892 7.45999 12.5664C5.84921 11.5428 4.48355 10.1772 3.45999 8.56641C2.33331 6.82721 1.63215 4.84707 1.41332 2.78641C1.39666 2.60205 1.41857 2.41625 1.47766 2.24082C1.53674 2.0654 1.6317 1.9042 1.7565 1.76749C1.8813 1.63077 2.03319 1.52155 2.20252 1.44675C2.37184 1.37196 2.55488 1.33325 2.73999 1.33307H4.73999C5.06353 1.32989 5.37719 1.44446 5.6225 1.65543C5.86781 1.8664 6.02804 2.15937 6.07332 2.47974C6.15774 3.11978 6.31429 3.74822 6.53999 4.35307C6.62969 4.59169 6.6491 4.85102 6.59593 5.10033C6.54276 5.34964 6.41923 5.57848 6.23999 5.75974L5.39332 6.60641C6.34236 8.27544 7.72429 9.65737 9.39332 10.6064L10.24 9.75974C10.4213 9.5805 10.6501 9.45697 10.8994 9.4038C11.1487 9.35063 11.408 9.37004 11.6467 9.45974C12.2515 9.68544 12.8799 9.84199 13.52 9.92641C13.8438 9.97209 14.1396 10.1352 14.351 10.3847C14.5624 10.6343 14.6748 10.9528 14.6667 11.2797Z"
+                                            stroke="white" stroke-opacity="0.6" stroke-width="1.33333"
+                                            stroke-linecap="round" stroke-linejoin="round" />
+                                    </g>
+                                    <defs>
+                                        <clipPath id="clip0_2_534">
+                                            <rect width="16" height="16" fill="white" />
+                                        </clipPath>
+                                    </defs>
+                                </svg>
+                                <span class="font-light fontSize15 colorWhite opacity8">+966-0505170627</span>
+                            </a>
                         </li>
                         <li class="d-flex align-items-center gap-2">
                             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"

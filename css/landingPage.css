@@ -759,7 +759,7 @@ background-image: url(../images/backActive-Section5.png);
     cursor: pointer;
 }
 .sectionTen .detail-item:hover { transform: translateX(-10px); }
-.sectionTen .detail-text { display: flex; flex-direction: column; gap: 5px; text-align: right; }
+.sectionTen .detail-text { display: flex; flex-direction: column; gap: 5px; text-align: start; }
 .sectionTen .detail-text .label { font-size: 14px; color: #999; }
 .sectionTen .detail-text .value { color: #1a332d; }
 .sectionTen .detail-icon { 
